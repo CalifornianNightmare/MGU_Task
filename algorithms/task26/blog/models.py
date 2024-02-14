@@ -1,13 +1,15 @@
 from django.db import models
+from django.utils import timezone
 
-# Create your models here.
 class Post(models.Model):
-    title = models.CharField(max_length=450)  # заголовок поста
-    author = models.ForeignKey(  # Автор поста, которого выбираем в административной панели управления
+    title = models.CharField(max_length=450)
+    author = models.ForeignKey(
         'auth.User',
-        on_delete=models.CASCADE,  # Удаление поста
+        on_delete=models.CASCADE,
     )
-    body = models.TextField()  # Поле нашего поста
+    body = models.TextField()
+    pub_date = models.DateTimeField(default=timezone.now)  # Adding pub_date field
+    objects = models.Manager()
 
-    def __str__(self):  # Метод
+    def __str__(self):
         return self.title

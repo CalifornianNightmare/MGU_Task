@@ -1,5 +1,5 @@
 from django.contrib import admin
 from .views import Post
 
-# Register your models here.
-admin.site.register(Post)  # Регистрация модели нашего поста
+# This somehow makes post creation on admin panel
+admin.site.register(Post)
