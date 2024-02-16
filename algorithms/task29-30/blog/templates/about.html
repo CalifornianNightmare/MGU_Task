@@ -27,11 +27,11 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="btn btn-outline-light btn-sm mt-1" href="#" aria-expanded="true"
+                            <a class="btn btn-outline-light btn-sm mt-1" href="/ru/about" aria-expanded="true"
                                role="button">Ru</a>
                         </li>
                         <li>
-                            <a class="btn btn-outline-light btn-sm me-2 mt-1" href="#" aria-expanded="true"
+                            <a class="btn btn-outline-light btn-sm me-2 mt-1" href="/en/about" aria-expanded="true"
                                role="button">En</a>
                         </li>
                         <li>
@@ -58,30 +58,25 @@
             </div>
         </nav>
     </header>
-    {% block content %}
-        <div style="margin-top: 1%">
-            <div class="container-fluid">
-                <div class="row align-items-start">
-                    <div class="col">
-                        <div class="bg-image card shadow-1-strong"
-                             style="background: radial-gradient(circle, rgba(53, 63, 250, 0.907) 30%, rgba(73, 2, 104, 0.945) 100%);">
-                            <div class="card-body text-white">
-                                <h2>{{ post.title }}</h2>
-                                <p>Автор поста: <b>{{ post.author }}</b></p>
-                                <p>{{ post.body }}</p>
-                                <img alt="" src="https://cdn2.unrealengine.com/egs-amongus-innersloth-ic1-400x400-675402583.png"  width="40%" height="40%" class="css-7i770w">
-                            </div>
-                            </div>
+    <div style="margin-top: 1%">
+        <div class="container-fluid">
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="bg-image card shadow-1-strong"
+                         style="background: radial-gradient(circle, rgba(53, 63, 250, 0.907) 30%, rgba(73, 2, 104, 0.945) 100%);">
+                        <div class="card-body text-white">
+                            <h2>{% trans "About ITBaza" %}</h2>
+                            <h3>{% trans "This blog was made all by me. God had no hand in this, I am literally the only one responsible for this piece. Okay maybe the guys below had some hand in it" %}</h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    {% endblock content %}
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-            crossorigin="anonymous"></script>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 
 </div>
 </body>

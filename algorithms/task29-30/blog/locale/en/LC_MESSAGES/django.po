@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 05:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\blog\templates\about.html:6 .\blog\templates\about.html:25
+#: .\blog\templates\home.html:26
+msgid "About us"
+msgstr ""
+
+#: .\blog\templates\about.html:16 .\blog\templates\home.html:17
+msgid "ITBaza"
+msgstr ""
+
+#: .\blog\templates\about.html:41 .\blog\templates\home.html:42
+msgid "Log out"
+msgstr ""
+
+#: .\blog\templates\about.html:47 .\blog\templates\home.html:48
+#: .\blog\templates\home.html:67
+msgid "Log in"
+msgstr ""
+
+#: .\blog\templates\about.html:51 .\blog\templates\home.html:52
+msgid "Sign up"
+msgstr ""
+
+#: .\blog\templates\about.html:68
+msgid "About ITBaza"
+msgstr ""
+
+#: .\blog\templates\about.html:69
+msgid ""
+"This blog was made all by me. God had no hand in this, I am literally the "
+"only one responsible for this piece. Okay maybe the guys below had some hand "
+"in it"
+msgstr ""
+
+#: .\blog\templates\home.html:72 .\blog\templates\home.html:95
+msgid "Enter your username:"
+msgstr ""
+
+#: .\blog\templates\home.html:74
+msgid "Enter your password:"
+msgstr ""
+
+#: .\blog\templates\home.html:78 .\blog\templates\home.html:104
+msgid "Cancel"
+msgstr ""
+
+#: .\blog\templates\home.html:90 .\blog\templates\home.html:105
+msgid "Sign in"
+msgstr ""
+
+#: .\blog\templates\home.html:97
+msgid "Enter the password:"
+msgstr ""
+
+#: .\blog\templates\home.html:99
+msgid "Repeat the password:"
+msgstr ""
+
+#: .\blog\templates\home.html:125
+msgid "More"
+msgstr ""
