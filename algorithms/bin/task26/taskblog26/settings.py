@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'task26_blog',
         'USER': 'root',
         'PASSWORD': 'rootroot',
-        'PORT': 3306,
+        'PORT': 3307,
         'HOST': '127.127.127.3'
     }
 }
