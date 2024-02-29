@@ -62,3 +62,20 @@ def login_view(request):
 def logout_view(request):
     logout(request)
     return redirect('home')
+
+def neural_network_control_panel_view(request):
+    is_superuser = request.user.is_superuser
+    if is_superuser:
+        return render(request, 'nn_control_panel.html')
+    else:
+        return render(request, 'error.html', {'text': 'You do not have permissions to access this page!'})
+
+def neural_network_activation(request):
+    post_data = request.POST
+    nn_type = post_data['nn_type']
+    start_time = post_data['start_time']
+    prediction_time = post_data['prediction_time']
+    to_do = post_data['todo']
+
+    # some logic
+
